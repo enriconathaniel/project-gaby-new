@@ -42,9 +42,9 @@ class MsProduct extends \yii\db\ActiveRecord
     {
         return [
             'productID' => 'Product ID',
-            'productName' => 'Product Name',
-            'stockQty' => 'Stock Qty',
-            'price' => 'Price',
+            'productName' => 'Nama Produk',
+            'stockQty' => 'Stok Tersedia',
+            'price' => 'Harga',
         ];
     }
 }
