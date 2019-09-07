@@ -20,9 +20,39 @@ class AppAsset extends AssetBundle
     public $basePath = '@webroot';
     public $baseUrl = '@web';
     public $css = [
-        'css/site.css',
+        'css/fonts/Roboto/roboto.css',
+        'css/morris.css',
+        'css/ionicons.min.css',
+        'css/flag-icon.min.css',
+        'css/jquery.dataTables.min.css',
+        'themes/areas.css',
+        'themes/month_white.css',
+        'themes/month_green.css',
+        'themes/month_transparent.css',
+        'themes/month_traditional.css',
+        'themes/navigator_8.css',
+        'themes/navigator_white.css',
+        'css/site.css'
     ];
     public $js = [
+        'js/bootbox.min.js',
+        'js/jquery.maskMoney.js',
+        'js/daypilot-all.min.js',
+        'js/jquery.knob.js',
+        'js/morris.js',
+        'js/jquery.dirrty.js',
+        'js/raphael-min.js',
+        'js/moment.js',
+        'js/js_browse.js',
+        'js/jquery.floatThead.min.js',
+        'js/jquery.blockUI.js',
+        'js/jquery.dataTables.min.js',
+        'js/interact.js',
+        'js/Chart.bundle.min.js',
+        'js/chartjs-plugin-datalabels.min.js',
+        'js/vue.js',
+        'js/vue-custom-components.js',
+        'js/js_general.js'
     ];
     public $depends = [
         'yii\web\YiiAsset',
